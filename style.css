@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 45px;
+}
+span{
+    color: #fc9149;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+/*==================== Header and Nav Bar Area ==========================*/
+#header{
+    background: linear-gradient(#8a8a5c, #a3a375);
+    padding: 5px;
+    border-bottom: 1px solid #4d4dff;
+}
+#header img{ 
+    width: 75px;
+    height: 35px;
+    border-radius: 75%;
+}
+
+#nav{
+    height: 40px;
+    border-bottom: 1px solid #4d4dff;
+}
+#nav ul{
+    background: linear-gradient(#66cc99, #9fdfbf);;
+    list-style: none;
+    
+}
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+
+/*==================== Section Area ============================*/
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.inner-header{
+    display: inline-flex;
+}
+.half-width img{
+    width: 80%;
+    height: auto;
+}
+.button-link{
+    background: linear-gradient(#fe4c30, #fb934a);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.about{
+    background: url(img/6.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.my-recipes{
+    text-align: center;
+}
+
+.food-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px lightslategray;
+}
+#food{
+    border: 10px solid #fff;
+}
+
+footer{
+    background: #0b0e17;
+    height: 100px;
+}
+footer h5, h6{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
